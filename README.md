@@ -62,7 +62,7 @@ This script will **delete** *unity-webapps-common*(Software to integrate webapps
 After installation of software this script opens firefox with 3 tabs from which you can download and install latest versions of *sublime text*, *Dropbox* and *IntelliJ IDEA*.
 
 ###Fix IDEA icon in numix icons style
-If you want to fix IDEA icon replace *<ideaDirectory>/bin/idea.png* with *images/idea.png* from this repository
+If you want to fix IDEA icon replace *pathToInstalledIDEA/bin/idea.png* with *images/idea.png* from this repository
 
 Old | New
 ----|----
@@ -104,6 +104,7 @@ Add some eye-candy to your system:
 
   * Change your wallpaper. You can find some on http://4walled.cc/ , http://alpha.wallhaven.cc/ , http://simpledesktops.com/ , http://rewalls.com/
   * Arrange the unity dock icons
+  ![Dock icons](images/dock.png)
 
 
 **Now your system is ready to work. Have a nice day:smiley:**
