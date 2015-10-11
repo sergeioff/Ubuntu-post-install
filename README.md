@@ -83,7 +83,7 @@ This script modify your grub so that it's menu not shown when the computer start
 ## 6. *[optional] Disable webcam*
 If you want to disable your webcam when the computer starts, execute *disable-webcam.sh*.
 ```Shell
-sudo disable-webcam.sh
+sudo ./disable-webcam.sh
 ```
 When you need a webcam simply type in terminal:
 ```Shell
@@ -110,7 +110,7 @@ Add some eye-candy to your system:
 
   * Change your wallpaper. You can find some on http://4walled.cc/ , http://alpha.wallhaven.cc/ , http://simpledesktops.com/ , http://rewalls.com/
   * Arrange the unity dock icons
-  
+
   ![Dock icons](images/dock.png)
 
 
