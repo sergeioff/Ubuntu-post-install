@@ -14,10 +14,11 @@ sudo apt-get install mesa-utils
 glxgears
 ```
 glxgears shows next results:
-Videocard | Performance
-----------|------------
-Nvidia GT 540M | 4777.690 FPS
-Internal Intel HD | 60.992 FPS
+
+  Videocard | Performance
+  ----------|------------
+  Nvidia GT 540M | 4777.690 FPS
+  Internal Intel HD | 60.992 FPS
 
 ## 3. Software installation
 Run *soft-install.sh* script from this repository and type your password
