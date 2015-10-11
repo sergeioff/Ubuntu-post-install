@@ -66,6 +66,7 @@ Add some eye-candy to your system:
 * Aplly following *Compiz* settings by *CompizConfig Setting Manager*:
   * Enable *Wobbly Windows*
   * Set these animations:
+  
       Action | Animation
       -------|----------
       Open Animation | Zoom
