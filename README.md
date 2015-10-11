@@ -28,10 +28,9 @@ glxgears shows next results:
   Internal Intel HD | 60.992 FPS
 
 ## 3. Software installation
-Run *soft-install.sh* script from this repository and type your password
+Run *install-soft.sh* script from this repository and type your password
 ```Shell
-chmod +x soft-install.sh
-./soft-install
+sudo ./install-soft.sh
 ```
 This script will **delete** *unity-webapps-common*(Software to integrate webapps to Unity shell). **Adds** *webupd8team/java* and *numix* repositories and **installs** following software:
 * Htop
@@ -75,10 +74,17 @@ Customize your ubuntu by:
 * Adding workspaces
 
 ## 5. *[optional] Modify grub*
-If you have other operating systems installed and want to hide grub menu while your ubuntu is loading, execute *modify-grub.sh*. This script modify your grub so that it's menu not shown when the computer starts. To show it you must hold the **Shift** key when the computer starts.
+If you have other operating systems installed and want to hide grub menu while your ubuntu is loading, execute *modify-grub.sh*. 
+```Shell
+sudo ./modify-grub.sh
+```
+This script modify your grub so that it's menu not shown when the computer starts. To show it you must hold the **Shift** key when the computer starts.
 
 ## 6. *[optional] Disable webcam*
 If you want to disable your webcam when the computer starts, execute *disable-webcam.sh*.
+```Shell
+sudo disable-webcam.sh
+```
 When you need a webcam simply type in terminal:
 ```Shell
 sudo modprobe uvcvideo
@@ -104,6 +110,7 @@ Add some eye-candy to your system:
 
   * Change your wallpaper. You can find some on http://4walled.cc/ , http://alpha.wallhaven.cc/ , http://simpledesktops.com/ , http://rewalls.com/
   * Arrange the unity dock icons
+  
   ![Dock icons](images/dock.png)
 
 
