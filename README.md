@@ -9,19 +9,19 @@ Go to *Software & Updates - Other Software* and check the *Canonical Partners*
 Go to *Software & Updates - Additional Drivers* and install needed drivers.
 ### Check that video driver is installed correctly
 Run *glxgears* from *mesa-utils* and check the performance:
-```bash
+```Shell
 sudo apt-get install mesa-utils
 glxgears
 ```
-glxgears shows next results
+glxgears shows next results:
 Videocard | Performance
 ----------|------------
-Nvidia GT 540M | *23889 frames in 5.0 seconds = 4777.690 FPS*
-Internal Intel HD | *305 frames in 5.0 seconds = 60.992 FPS*
+Nvidia GT 540M | 4777.690 FPS
+Internal Intel HD | 60.992 FPS
 
 ## 3. Software installation
 Run *soft-install.sh* script from this repository and type your password
-```bash
+```Shell
 chmod +x soft-install.sh
 ./soft-install
 ```
@@ -65,7 +65,7 @@ Add some eye-candy to your system:
 * Aplly following *Compiz* settings by *CompizConfig Setting Manager*:
   * Enable *Wobbly Windows*
   * Set these animations:
-    * Action | Animation
+      Action | Animation
       -------|----------
       Open Animation | Zoom
 	  Close Animation | Curved Fold
