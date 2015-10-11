@@ -6,6 +6,7 @@ else cp /etc/default/grub .
 	echo 'export GRUB_FORCE_HIDDEN_MENU' >> grub
 	mv grub /etc/default/
 	mv 30_os-prober /etc/grub.d/
+	update-grub
 	echo '###############################'
 	echo '# Grub successfully modified! #'
 	echo '###############################'
