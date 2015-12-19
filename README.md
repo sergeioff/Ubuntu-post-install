@@ -35,6 +35,7 @@ sudo ./install-soft.sh
 This script will **delete** *unity-webapps-common*(Software to integrate webapps to Unity shell). **Adds** *webupd8team/java* and *numix* repositories and **installs** following software:
 * Htop
 * Mc
+* Vim
 * Lynx
 * Gparted
 * Ubuntu restricted extras
