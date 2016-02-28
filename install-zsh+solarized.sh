@@ -14,4 +14,4 @@ fonts/install.sh
 cd ~/
 wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-dark
 mv dircolors.ansi-dark .dircolors
-eval `dircolors ~/.dircolors`
+dircolors ~/.dircolors
