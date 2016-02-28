@@ -15,11 +15,3 @@ cd ~/
 wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-dark
 mv dircolors.ansi-dark .dircolors
 eval `dircolors ~/.dircolors`
-
-#install vim theme
-git clone git://github.com/altercation/vim-colors-solarized.git
-mv vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
-
-echo "syntax enable
-set background=dark
-colorscheme solarized" > ~/.vimrc
