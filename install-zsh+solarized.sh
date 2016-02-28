@@ -16,18 +16,10 @@ wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/mas
 mv dircolors.ansi-dark .dircolors
 eval `dircolors ~/.dircolors`
 
-#install pathogen.vim
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-	curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-
 #install vim theme
-cd ~/.vim/bundle
 git clone git://github.com/altercation/vim-colors-solarized.git
+mv vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
 
-echo "execute pathogen#infect()
-syntax on
-filetype plugin indent on
-
-syntax enable
+echo "syntax enable
 set background=dark
 colorscheme solarized" > ~/.vimrc
