@@ -1,5 +1,5 @@
 # Ubuntu-post-install
-This tips and scripts are used after installation of ubuntu and they simplify process of setting work environment.
+This tips and scripts simplify process of setting work environment on Ubuntu system.
 
 ## 0. Install git and clone this repository
 ```Shell
@@ -8,7 +8,7 @@ git clone https://github.com/sergeioff/Ubuntu-post-install
 ```
 
 ## 1. Activate *Canonical partners* repositories
-Go to *Software & Updates - Other Software* and check the *Canonical Partners* 
+Go to *Software & Updates - Other Software* and check the *Canonical Partners*
 ![Enabling canonical partners repositories](images/canonicalPartners.png)
 
 ## 2. Drivers installation
@@ -32,10 +32,11 @@ Run *install-soft.sh* script from this repository and type your password
 ```Shell
 sudo ./install-soft.sh
 ```
-This script will **delete** *unity-webapps-common*(Software to integrate webapps to Unity shell). **Adds** *webupd8team/java* and *numix* repositories and **installs** following software:
+This script will **delete** *unity-webapps-common* (software to integrate webapps to Unity shell). Then it'll **add** *webupd8team/java* and *numix* repositories and **installs** following software:
 * Htop
 * Mc
 * Vim
+* Tree
 * Lynx
 * Gparted
 * Ubuntu restricted extras
@@ -43,7 +44,7 @@ This script will **delete** *unity-webapps-common*(Software to integrate webapps
 * p7zip-full
 * Exfat-utils
 * Fbreader
-* Gnote 
+* Gnote
 * Gimp
 * Kamerka
 * Kazam
@@ -55,11 +56,12 @@ This script will **delete** *unity-webapps-common*(Software to integrate webapps
 * Artha
 * CompizConfig settings manager
 * Compiz plugins
-* Oracle java8
+* Oracle java 8
 * Numix gtk theme
 * Numix icons
+* Redshift
 
-After installation of software this script opens firefox with 3 tabs from which you can download and install latest versions of *sublime text*, *Dropbox* and *IntelliJ IDEA*.
+After installation of software this script opens firefox with 4 tabs from which you can download and install latest versions of *Dropbox*, *IntelliJ IDEA*, *Atom* and *Telegram*.
 
 ###Fix IDEA icon in numix icons style
 If you want to fix IDEA icon replace *pathToInstalledIDEA/bin/idea.png* with *images/idea.png* from this repository
@@ -69,17 +71,17 @@ Old | New
 ![Old icon](images/ideaOld.png) | ![New icon](images/idea.png)
 
 ## 4. Customize your ubuntu settings
-Customize your ubuntu by:
-* Changing system settings 
+Customize your Ubuntu by:
+* Changing system settings
 * Disabling web search in dash
 * Adding workspaces
 
 ## 5. *[optional] Modify grub*
-If you have other operating systems installed and want to hide grub menu while your ubuntu is loading, execute *modify-grub.sh*. 
+If you have other operating systems installed and want to hide grub menu while your ubuntu is loading, execute *modify-grub.sh*.
 ```Shell
 sudo ./modify-grub.sh
 ```
-This script modify your grub so that it's menu not shown when the computer starts. To show it you must hold the **Shift** key when the computer starts.
+This script modify your grub so that it's menu not shown when the computer starts. To show it you need to hold the **Shift** key when the computer starts.
 
 ## 6. *[optional] Disable webcam*
 If you want to disable your webcam when the computer starts, execute *disable-webcam.sh*.
@@ -95,10 +97,10 @@ If you want disable webcam in this session without reboot use this command:
 sudo modprobe -r uvcvideo
 ```
 
-## 7. Change look&feel
+## 7. *[Optional] Change look&feel*
 Add some eye-candy to your system:
 * Apply themes by unity-tweak-tool
-* Aplly following *Compiz* settings by *CompizConfig Setting Manager*:
+* *[Example]* Aplly following *Compiz* settings by *CompizConfig Setting Manager*:
   * Enable *Wobbly Windows*
   * Set these animations:
 
@@ -109,10 +111,17 @@ Add some eye-candy to your system:
       Minimize Animation | Horizontal Folds
       Unminimize Animation | Magic Lamp
 
-  * Change your wallpaper. You can find some on http://4walled.cc/ , http://alpha.wallhaven.cc/ , http://simpledesktops.com/ , http://rewalls.com/
-  * Arrange the unity dock icons
+  * Change your wallpaper. You can find some on http://alpha.wallhaven.cc/ , http://simpledesktops.com/ , http://rewalls.com/
 
-  ![Dock icons](images/dock.png)
+## 8. *[Optional] Install zsh + oh-my-zsh + solarized color scheme for ls command*
+Just run the
+```Shell
+./install-zsh+solarized.sh
+```
 
+## 9. *[Optional] Replace rhytmbox radio stations list*
+```Shell
+./add-radioStations.sh
+```
 
 **Now your system is ready to work. Have a nice day:smiley:**
