@@ -1,0 +1,109 @@
+<?xml version="1.0" standalone="yes"?>
+<rhythmdb version="2.0">
+  <entry type="iradio">
+    <title>Record Deep Radio</title>
+    <genre>Radio Record</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://air2.radiorecord.ru:805/deep_320</location>
+    <play-count>1</play-count>
+    <last-played>1456851219</last-played>
+    <bitrate>320</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Pirate Station Radio</title>
+    <genre>Radio Record</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://air2.radiorecord.ru:805/ps_320</location>
+    <play-count>1</play-count>
+    <last-played>1456851200</last-played>
+    <bitrate>320</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Record Breaks</title>
+    <genre>Radio Record</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://air2.radiorecord.ru:805/brks_320</location>
+    <play-count>1</play-count>
+    <last-played>1456851238</last-played>
+    <bitrate>320</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Record Club Radio</title>
+    <genre>Radio Record</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://air2.radiorecord.ru:805/club_320</location>
+    <play-count>1</play-count>
+    <last-played>1456851178</last-played>
+    <bitrate>320</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Trancemission Radio</title>
+    <genre>Radio Record</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://air2.radiorecord.ru:805/tm_320</location>
+    <play-count>1</play-count>
+    <last-played>1456851135</last-played>
+    <bitrate>320</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Record Chillout Radio</title>
+    <genre>Radio Record</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://air2.radiorecord.ru:805/chil_320</location>
+    <play-count>1</play-count>
+    <last-played>1456851154</last-played>
+    <bitrate>320</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio Record</title>
+    <genre>Radio Record</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://air2.radiorecord.ru:805/rr_320</location>
+    <play-count>1</play-count>
+    <last-played>1456851112</last-played>
+    <bitrate>320</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Rock Radio</title>
+    <genre>Radio Record</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://air2.radiorecord.ru:805/rock_320</location>
+    <bitrate>320</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Record Trap</title>
+    <genre>Radio Record</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://air2.radiorecord.ru:805/trap_320</location>
+    <play-count>1</play-count>
+    <last-played>1456851284</last-played>
+    <bitrate>320</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+</rhythmdb>
