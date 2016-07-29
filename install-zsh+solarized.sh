@@ -16,3 +16,4 @@ wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/mas
 
 mv dircolors.ansi-dark .dircolors
 
+chsh -s /bin/zsh
