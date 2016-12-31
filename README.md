@@ -32,10 +32,12 @@ Run *install-soft.sh* script from this repository and type your password
 ```Shell
 sudo ./install-soft.sh
 ```
-This script will **delete** *unity-webapps-common* (software to integrate webapps to Unity shell). Then it'll **add** *webupd8team/java* and *numix* repositories and **installs** following software:
+This script will **delete** *unity-webapps-common* (software to integrate webapps to Unity shell) and *firefox*. Then it'll **add** *webupd8team/java* and *numix* repositories and **installs** following software:
+* Zsh
 * Htop
 * Mc
 * Vim
+* Tmux
 * Tree
 * Lynx
 * Gparted
@@ -57,18 +59,17 @@ This script will **delete** *unity-webapps-common* (software to integrate webapp
 * CompizConfig settings manager
 * Compiz plugins
 * Oracle java 8
+* Maven
 * Numix gtk theme
 * Numix icons
 * Redshift
+* Soundconverter
+* VirtualBox
+* Zram-config
+* Chromium-browser
+* Vagrant
 
-After installation of software this script opens firefox with 4 tabs from which you can download and install latest versions of *Dropbox*, *IntelliJ IDEA*, *Atom* and *Telegram*.
-
-###Fix IDEA icon in numix icons style
-If you want to fix IDEA icon replace *pathToInstalledIDEA/bin/idea.png* with *images/idea.png* from this repository
-
-Old | New
-----|----
-![Old icon](images/ideaOld.png) | ![New icon](images/idea.png)
+After installation of software this script opens *chromium* with 4 tabs from which you can download and install latest versions of *Dropbox*, *IntelliJ IDEA*, *Sublime Text* and *Telegram*.
 
 ## 4. Customize your ubuntu settings
 Customize your Ubuntu by:
@@ -113,10 +114,10 @@ Add some eye-candy to your system:
 
   * Change your wallpaper. You can find some on http://alpha.wallhaven.cc/ , http://simpledesktops.com/ , http://rewalls.com/
 
-## 8. *[Optional] Install zsh + oh-my-zsh + solarized color scheme for ls command*
+## 8. *[Optional] oh-my-zsh + solarized color scheme*
 Just run the
 ```Shell
-./install-zsh+solarized.sh
+./install-oh-my-zsh+solarized.sh
 ```
 
 ## 9. *[Optional] Replace rhytmbox radio stations list*
