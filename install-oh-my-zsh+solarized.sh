@@ -1,4 +1,4 @@
-sudo apt-get install zsh
+#!/bin/bash
 
 #install oh-my-zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
@@ -10,7 +10,7 @@ cp configFiles/.zshrc ~/
 git clone https://github.com/powerline/fonts.git
 fonts/install.sh
 
-#install ls color-theme
+#install solarized color-theme
 cd ~/
 wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-dark
 
