@@ -7,8 +7,8 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 cp configFiles/.zshrc ~/
 
 #install fixed fonts
-#git clone https://github.com/powerline/fonts.git
-#fonts/install.sh
+git clone https://github.com/powerline/fonts.git
+fonts/install.sh
 
 #install solarized color-theme
 wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-dark
