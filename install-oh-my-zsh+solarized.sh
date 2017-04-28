@@ -11,9 +11,9 @@ git clone https://github.com/powerline/fonts.git
 fonts/install.sh
 
 #install solarized color-theme
-wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-dark
-mv dircolors.ansi-dark ~/.dircolors
+#wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-dark
+#mv dircolors.ansi-dark ~/.dircolors
 
-echo "eval 'dircolors ~/.dircolors'" >> ~/.zshrc
+#echo "eval 'dircolors ~/.dircolors'" >> ~/.zshrc
 
 chsh -s /bin/zsh
