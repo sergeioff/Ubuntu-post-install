@@ -9,9 +9,10 @@ else apt-get purge unity-webapps-common
 	echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 	apt update
 
-	apt install zsh htop mc vim tmux tree lynx gparted vlc p7zip-full exfat-utils fbreader gimp kamerka kazam synaptic indicator-multiload speedcrunch artha oracle-java9-installer maven numix-gtk-theme numix-icon-theme-circle soundconverter virtualbox zram-config chromium-browser spotify-client telegram-desktop atom4 gnome-tweak-tool
+	apt install zsh htop mc vim tmux tree lynx gparted vlc p7zip-full exfat-utils fbreader gimp kamerka kazam synaptic indicator-multiload speedcrunch artha oracle-java9-installer maven numix-gtk-theme numix-icon-theme-circle soundconverter virtualbox zram-config chromium-browser spotify-client telegram-desktop gnome-tweak-tool
 
-	firefox https://www.dropbox.com/install?os=lnx https://www.jetbrains.com/idea/download/
+	echo "Don't forget to install: Dropbox, Atom, IntelliJ, PyCharm"
+
 	echo '####################################'
 	echo '# Software installed successfully! #'
 	echo '####################################'
