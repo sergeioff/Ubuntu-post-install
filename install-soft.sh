@@ -9,9 +9,13 @@ else apt-get purge unity-webapps-common
 	echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 	apt update
 
-	apt install zsh htop mc vim tmux tree lynx gparted vlc p7zip-full exfat-utils fbreader gimp kamerka kazam synaptic indicator-multiload speedcrunch artha oracle-java8-installer maven unity-tweak-tool compizconfig-settings-manager compiz-plugins redshift-gtk numix-gtk-theme numix-icon-theme-circle soundconverter virtualbox zram-config chromium-browser spotify-client gnome-tweak-tool
+	apt install zsh htop mc vim tmux tree lynx gparted vlc p7zip-full exfat-utils fbreader gimp kamerka kazam synaptic indicator-multiload speedcrunch artha oracle-java8-installer maven redshift-gtk numix-gtk-theme numix-icon-theme-circle soundconverter virtualbox zram-config chromium-browser spotify-client autojump
 
-	firefox "https://simplenote.com/" "https://www.dropbox.com/install-linux" "https://atom.io/download/deb" "https://www.jetbrains.com/idea/download/#section=linux" "https://www.jetbrains.com/pycharm/download/#section=linux"
+	echo "https://simplenote.com/"
+	echo "https://www.dropbox.com/install-linux"
+	echo "https://atom.io/download/deb" 
+	echo "https://www.jetbrains.com/idea/download/#section=linux" 
+	echo "https://www.jetbrains.com/pycharm/download/#section=linux"
 
 	echo '####################################'
 	echo '# Software installed successfully! #'
